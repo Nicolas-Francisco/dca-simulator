@@ -1,9 +1,9 @@
 import { NextResponse } from "next/server";
-import { API_URL } from "@/config/enviroment";
+import { BUDA_API_URL } from "@/config/environment";
 
 export async function GET() {
   try {
-    const response = await fetch(`${API_URL}/markets`, {
+    const response = await fetch(`${BUDA_API_URL}/markets`, {
       headers: {
         Accept: "application/json",
       },

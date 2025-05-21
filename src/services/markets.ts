@@ -1,5 +1,4 @@
 import { Market } from "@/interfaces/market";
-// import { format, subMonths } from "date-fns";
 
 interface MarketResponse {
   markets: Market[];
